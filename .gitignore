@@ -1,6 +1,16 @@
+# Dependências
+node_modules/
+
 # Código TypeScript compilado
 dist/
 build/
+
+# Editor
+.vscode/
+.idea/
+
+# Testes / coverage
+coverage/
 
 # Variáveis de Ambiente e Segredos (CRÍTICO PARA SEGURANÇA)
 .env

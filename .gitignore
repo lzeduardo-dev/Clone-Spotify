@@ -1,0 +1,15 @@
+# Código TypeScript compilado
+dist/
+build/
+
+# Variáveis de Ambiente e Segredos (CRÍTICO PARA SEGURANÇA)
+.env
+.env.local
+
+# Arquivos de log de erros do npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Arquivos do sistema operacional (Mac)
+.DS_Store

@@ -5,6 +5,9 @@ export interface SongResponse {
   name: string;
   image: string;
   banner: string;
+  artist: string
+  duration: string
+  audio: string
 };
 
 export const getSongs = async (): Promise<SongResponse[]> => {
